@@ -30,7 +30,9 @@ export default {
         this.date = "";
         this.title = "";
         let content = document.querySelector(".todoList");
-        content.scrollLeft += 1000;
+        if(content) {
+          content.scrollLeft += 1000
+        }
       }
     },
   },
