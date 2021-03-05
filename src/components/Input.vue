@@ -22,4 +22,10 @@ input {
   padding: 0 10px;
   font-size: 14px;
 }
+@media screen and (max-width: 725px) {
+  input {
+    width: 95%;
+    margin: 0 auto 10px;
+  }
+}
 </style>

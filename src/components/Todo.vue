@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 .todo {
-  width: 300px;
+  max-width: 300px;
   box-sizing: border-box;
   padding: 10px;
   border-bottom: 1px solid silver;

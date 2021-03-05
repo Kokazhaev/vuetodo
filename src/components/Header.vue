@@ -47,4 +47,10 @@ export default {
   max-width: 700px;
   margin: 0 auto 60px;
 }
+
+@media screen and (max-width: 725px) {
+  .form {
+    flex-flow: row wrap
+  }
+}
 </style>

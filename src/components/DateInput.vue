@@ -23,4 +23,10 @@ input {
   font-size: 14px;
   color: #505050;
 }
+@media screen and (max-width: 725px) {
+  input {
+    width: 45%;
+    margin: 0 auto 10px;
+  }
+}
 </style>

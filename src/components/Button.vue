@@ -22,4 +22,12 @@ button {
   color: #505050;
   cursor: pointer;
 }
+
+@media screen and (max-width: 725px) {
+  button {
+    width: 45%;
+    margin: 0 auto 10px;
+    padding: 0;
+  }
+}
 </style>
